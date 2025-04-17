@@ -1,5 +1,21 @@
-# Vue 3 + Vite
+# Vue.js To-Do List App
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Это приложение для создания и управления заметками с поддержкой задач внутри каждой заметки. В приложении реализованы функции добавления, редактирования, удаления заметок, а также отмены и повторения изменений. Все данные сохраняются в `localStorage`.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Запуск проекта локально
+
+Для того чтобы запустить проект на своем компьютере, выполните следующие шаги:
+
+### 1. Клонировать репозиторий
+
+Склонируйте репозиторий с GitHub:
+
+git remote add origin https://github.com/diychave/VUETEST.git
+
+### 2. Затем установите все зависимости:
+
+npm install
+
+### 3. Запуск проекта
+
+npm run dev
