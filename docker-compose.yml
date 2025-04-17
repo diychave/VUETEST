@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8080:80"
+    networks:
+      - vue-network
+
+networks:
+  vue-network:
+    driver: bridge
